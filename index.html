@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <h1 id="title">To Do App</h1>
+        <hr>
+        <form id="task-form" action="#" method="post" aria-labelledby="title">
+            <label for="task" class="sr-only">Task:</label>
+            <input type="text" id="task" name="task" placeholder="Enter a task" aria-label="Enter task" required>
+            <button type="submit" aria-label="Add task">Add Task</button>
+        </form>
+        <ul class="List" id="task-list" role="list" aria-live="polite">
+            
+        </ul>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
